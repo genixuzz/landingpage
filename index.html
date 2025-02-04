@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gafas de Sol Únicas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            color: #222;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #666;
+        }
+
+        .btn {
+            background-color: #ff5e5e;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #e04e4e;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .galeria {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .producto {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .producto img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .producto img:hover {
+            transform: scale(1.1);
+        }
+
+        .producto p {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .cta {
+            background-color: #ff5e5e;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        .cta h2 {
+            font-size: 2em;
+        }
+
+        .cta .btn {
+            background-color: white;
+            color: #ff5e5e;
+        }
+
+        .cta .btn:hover {
+            background-color: #ffe5e5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gafas de Sol Únicas</h1>
+        <p>Descubre el estilo que define tu personalidad</p>
+        <a href="#comprar" class="btn">¡Quiero las mías!</a>
+    </header>
+
+    <section id="diseños">
+        <h2>Nuestros Diseños Exclusivos</h2>
+        <div class="galeria">
+            <div class="producto">
+                <img src="img/gafa1.jpg" alt="Gafas de sol 1">
+                <p>Gafas de sol 1</p>
+            </div>
+            <div class="producto">
+                <img src="img/gafa2.jpg" alt="Gafas de sol 2">
+                <p>Gafas de sol 2</p>
+            </div>
+            <div class="producto">
+                <img src="img/gafa3.jpg" alt="Gafas de sol 3">
+                <p>Gafas de sol 3</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="comprar">
+        <h2>¡No te quedes sin las tuyas!</h2>
+        <a href="#" class="btn">Compra ahora</a>
+    </section>
+</body>
+</html>
+
+
